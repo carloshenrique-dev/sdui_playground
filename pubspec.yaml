@@ -1,0 +1,26 @@
+name: sdui_playground
+description: >-
+  A small, generic Server-Driven UI engine for Flutter with a versioned JSON
+  schema, component and action registries, and graceful fallbacks.
+version: 0.1.0
+repository: https://github.com/carloshenrique-dev/sdui_playground
+issue_tracker: https://github.com/carloshenrique-dev/sdui_playground/issues
+topics:
+  - server-driven-ui
+  - flutter
+  - ui
+# This is a learning/portfolio package. Remove this line to publish to pub.dev.
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
